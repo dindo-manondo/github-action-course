@@ -1,0 +1,14 @@
+name: github course
+on: [push]
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "hello world"
+
+      - name: multi-line commands
+        run: |
+          node -v
+          npm -v
