@@ -5,5 +5,5 @@ jobs:
   testing-wf-commands:
     runs-on: ubuntu-latest
     steps:
-      - name: setting an error message
+      - name: setting an error messages
         run: echo "::error::missing semicolon"
